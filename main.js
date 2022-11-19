@@ -60,3 +60,7 @@
         last_position_of_y = current_position_of_touch_y;
     }
 
+function clear()
+{
+    ctx.rect(0, 0, ctx.canvas.width, ctx.canvas.height);
+}
